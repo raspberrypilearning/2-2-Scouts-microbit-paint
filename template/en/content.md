@@ -1,50 +1,60 @@
-# Activity / project title
+ # micro:bit make a map
 
 # Leader notes
 
 ## Overview
 
-This activity fulfills Stage #, Requirement # of the Digital Maker Staged Activity Badge (write clear instructions for a computer or person to follow to complete a task) and Stage x, Requirement x of the Give other badge links here. 
+This activity fulfills Stage 2, Requirement 2 of the Digital Maker Staged Activity Badge (Create a simple computer program to help with a scouting activity, and try it out) and Stage x, Requirement x of the Give other badge links here. 
 
-Give an idea of what the activity is.
+Young people will use Scratch along with a micro:bit to draw a map of a wilderness area they have visited or are planning to visit.
 
 ## Information 
 
-+ Time - x minutes 
-+ Group size -  xx
-+ Preparation needed - include printing and that they’ll need to download software if working offline 
-+ Location - Indoor/outdoor being primary one here
++ Time - 45 minutes
++ Group size - Flexible (ideally two young people per computer and micro:bit)
++ Preparation needed - If you’re running this activity without access to WiFi, you will need to download the software and starter project ahead of time. You may also wish to print handouts.
++ Location - Wherever you have computer access
 
 ## You will need
 
-+ Laptops, tablets, micro:bits
-+ These can be shared between the group, recommend x per x young people
++ Laptops or desktop computers
++ micro:bits and USB cables
++ Scratch either online or offline
++ Scratch Link Software installed
++ Per group:
+  + One laptop or desktop computer
+  + One micro:bit
+  + One USB A to micro USB B cable
 + Activity handouts
 
-### If your meeting place has WiFi
+### If your meeting place has Internet Access
 
 Run Scratch online in a web browser with an internet connection using this link rpf.io/scratchon.
 
-Run the micro:bit MakeCode editor in a web browser using this link: rpf.io/makecode.
-
+Download the Scratch Link software and install the Scrath micro:bit HEX code on the microbits beforehand. Refer to the instructions at rpf.io/scratch-link
 ### If your meeting place doesn’t have WiFi
-
-Download the micro:bit code editor software beforehand; refer to the micro:bit guide rpf.io/scouts-microbit for instructions.
 
 Download the Scratch Desktop application beforehand; refere to the Scratch guide rpf.io/scouts-scratch for instructions. 
 
+Download the Scratch Link software and install the Scrath micro:bit HEX code on the microbits beforehand. Refer to the instructions at rpf.io/scratch-link
+
 ## Key messages
 
-+ These will be what the leaders need to draw out in any discussion
-+ As well as the key learning points that the activity is trying to get the 
++ External inputs, such as buttons as sensors can be used with a computer.
++ Infinte loops can be used to detect events and then conditional selection can be used to alter the begabior of a program depending on the event detected.
++ Scratch cab be used as a digital canvas on which images can be drawn.
 
 ## Leader instructions
-1. Stepped instructions describing how the leader should deliver / present the activity
+1. Discuss digital arts programs the young people may have used such as Microsoft paint, and how you might use a mouse or a tablet to draw on a digital canvas.
+2. Explain that you can use a variety of input devices to interact with a computer, and that they are going to make a program that will allow them to draw their own maps.
+3. If they have not used them before, introduce the young people to the micro:bit. Explain that micro:bits not only have two buttons (for input) but they are also able to sense which way they are tilted.
+4. Demonstrate how to connect the micro:bit to the computer and open Scratch (online or offline)
+5. With the instructions in the printout, the young people will create code in Scratch allowing them to use their micro:bits to draw a map.
+6. Once the project is complete, young people can use their program to create their own custom maps in Scratch, of an campsite environment they have visited.
 
 ## Alternatives
 
-+ State whether tech-free version available (what we’ve been calling unplugged)
-+ Give other adaptations available.
++ If micro:bits are not available, this resource can be completes using key presses and the mouse instead.
 
 ## Safety
 
@@ -60,15 +70,25 @@ Here other badge resources primarily cover how you’d adapt this for different 
 
 # Handout
 
+You are going to make a computer program using Scratch that will let you use a micro:bit to control your sprite, and then create a digital map of an area you have visited or will be visiting. Tilting the microbit controls where the sprite will move, while the buttons can be used for drawing paths and placing down map icons.
+
 ## Did you know
 
-+ A relevant relating to the activity.
++ Digital maps have led to some very interesting discoveries, such as when an archologist called Angela Micol used Google maps to discover some previously unknow pyraminds in Egypt.
 
 ## Instructions
 
-1. Make sure they are numbered
-2. Really make sure they are numbered :)
+### Part 1: Setting up
+1. Open the starter project at rpf.io/scouts-microbit-map-on or if you are offline open the starter project that your leader has provided you.
 
+2. Connect microbit step here - will have to see what happens with starter project.
+
+3. Start by clicking the green flag. The `scouts` sprite should read out the instructions for the map maker and then shrink down in size.
+
+### Part 2: Moving the scout
+You are going to write some code that will control the direction the scout sprite moves, depending on the direction the micro:bit is tilted.
+
+1. 
 ## Discuss
 
 A question related to the activity which they can discuss in a small group.
