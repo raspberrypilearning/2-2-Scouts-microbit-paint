@@ -90,7 +90,7 @@ You are going to write some code that will control the direction the scout sprit
 
 1. Add a `green flag clicked` block to the program from the **Events** menu.
 
-![greenflag](greenflag)
+![greenflag](greenflag.png)
 
 2. The program needs to be able to detect any movement of the micro:bit. To do this, it needs always be listening for events. Add a `forever` loop beneath the `green flag clicked` block. You can find it in the **Control** menu.
 
