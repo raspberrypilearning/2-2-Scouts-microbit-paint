@@ -88,12 +88,15 @@ You are going to make a computer program using Scratch that will let you use a m
 ### Part 2: Moving the scout
 You are going to write some code that will control the direction the scout sprite moves, depending on the direction the micro:bit is tilted.
 
-1. Add a ![greenflag](assets/script_1.png) block to the program.
-2. The program needs to be able to detect any movement of the micro:bit. To do this, it needs always be listening for events. Add a ![forever](assets/script_2.png) loop beneath the ![greenflag](assets/script_1.png) block.
+1. Add a `green flag clicked` block to the program.
 
-![program](assets/script_3.png)
+![greenflag](greenflag)
 
-3. With
+2. The program needs to be able to detect any movement of the micro:bit. To do this, it needs always be listening for events. Add a `forever` loop beneath the `green flag clicked` block.
+
+![program](assets/script_1.png)
+
+3. Inside the forever loop, add an 
 ## Discuss
 
 A question related to the activity which they can discuss in a small group.
@@ -105,3 +108,7 @@ Any tips which may help the Scouts engage or get more from the activity.
 ## Sharing
 
 How the output or ideas from the activity might be shared with others. 
+
+
+[greenflag]:assets/greenflag.png
+[forever]:assets/forever.png
