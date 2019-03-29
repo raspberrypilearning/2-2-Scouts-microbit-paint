@@ -106,7 +106,7 @@ You are going to write some code that will control the direction the scout sprit
 
 5. Use the dropdown menu within the `tilted any ?` block to change it to `tilted right ?`, and then within the `if then` block you can tell your program to change the x position of the sprite. You can find the blocks to change position in the **Motion** menu.
 
-![program](assets/script_4.pn)g
+![program](assets/script_4.png)
 
 6. Click the green flag to run your program and after the sprite reads the insturctions, try tilting your micro:bit to the right. Your sprite should move across the screen.
 
