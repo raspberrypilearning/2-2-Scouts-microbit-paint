@@ -45,7 +45,7 @@ Download the Scratch Link software and install the Scrath micro:bit HEX code on 
 + Scratch cab be used as a digital canvas on which images can be drawn.
 
 ## Leader instructions
-1. Discuss digital arts programs the young people may have used such as Microsoft paint, and how you might use a mouse or a tablet to draw on a digital canvas.
+1. Discuss digital arts programs the young people may have used such as Microsoft Paint, and how you might use a mouse or a tablet to draw on a digital canvas.
 2. Explain that you can use a variety of input devices to interact with a computer, and that they are going to make a program that will allow them to draw their own maps.
 3. If they have not used them before, introduce the young people to the micro:bit. Explain that micro:bits not only have two buttons (for input) but they are also able to sense which way they are tilted.
 4. Demonstrate how to connect the micro:bit to the computer and open Scratch (online or offline)
@@ -83,12 +83,17 @@ You are going to make a computer program using Scratch that will let you use a m
 
 2. Connect microbit step here - will have to see what happens with starter project.
 
-3. Start by clicking the green flag. The `scouts` sprite should read out the instructions for the map maker and then shrink down in size.
+3. Start by clicking the green flag. The `scouts` sprite should read out the instructions for the map maker program and then shrink down in size.
 
 ### Part 2: Moving the scout
 You are going to write some code that will control the direction the scout sprite moves, depending on the direction the micro:bit is tilted.
 
-1. 
+1. Add a ![greenflag](assets/script_1.png) block to the program.
+2. The program needs to be able to detect any movement of the micro:bit. To do this, it needs always be listening for events. Add a ![forever](assets/script_2.png) loop beneath the ![greenflag](assets/script_1.png) block.
+
+![program](assets/script_3.png)
+
+3. With
 ## Discuss
 
 A question related to the activity which they can discuss in a small group.
