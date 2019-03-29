@@ -8,6 +8,7 @@ This activity fulfills Stage 2, Requirement 2 of the Digital Maker Staged Activi
 
 Young people will use Scratch along with a micro:bit to draw a map of a wilderness area they have visited or are planning to visit.
 
+A completed project can be found online at [rpf.io/scouts-microbit-map-on-complete](rpf.io/scouts-microbit-map-on-complete)
 ## Information 
 
 + Time - 45 minutes
@@ -32,6 +33,7 @@ Young people will use Scratch along with a micro:bit to draw a map of a wilderne
 Run Scratch online in a web browser with an internet connection using this link rpf.io/scratchon.
 
 Download the Scratch Link software and install the Scrath micro:bit HEX code on the microbits beforehand. Refer to the instructions at rpf.io/scratch-link
+
 ### If your meeting place doesn’t have WiFi
 
 Download the Scratch Desktop application beforehand; refere to the Scratch guide rpf.io/scouts-scratch for instructions. 
@@ -79,7 +81,7 @@ You are going to make a computer program using Scratch that will let you use a m
 ## Instructions
 
 ### Part 1: Setting up
-1. Open the starter project at rpf.io/scouts-microbit-map-on or if you are offline open the starter project that your leader has provided you.
+1. Open the starter project at [rpf.io/scouts-microbit-map-on](rpf.io/scouts-microbit-map-on) or if you are offline open the starter project that your leader has provided you.
 
 2. Connect microbit step here - will have to see what happens with starter project.
 
