@@ -88,15 +88,109 @@ You are going to make a computer program using Scratch that will let you use a m
 ### Part 2: Moving the scout
 You are going to write some code that will control the direction the scout sprite moves, depending on the direction the micro:bit is tilted.
 
-1. Add a `green flag clicked` block to the program.
+1. Add a `green flag clicked` block to the program from the **Events** menu.
 
 ![greenflag](greenflag)
 
-2. The program needs to be able to detect any movement of the micro:bit. To do this, it needs always be listening for events. Add a `forever` loop beneath the `green flag clicked` block.
+2. The program needs to be able to detect any movement of the micro:bit. To do this, it needs always be listening for events. Add a `forever` loop beneath the `green flag clicked` block. You can find it in the **Control** menu.
 
 ![program](assets/script_1.png)
 
-3. Inside the forever loop, add an 
+3. Inside the forever loop, add an `if then` block from the **Control** menu.
+
+![program](assets/script_2.png)
+
+4. Now you can add in a block to detect a tilt of the micro:bit. From the **micro:bit** menu, find the `tilted any ?` block and place it into the `if then` block.
+
+![program](assets/script_3.png)
+
+5. Use the dropdown menu within the `tilted any ?` block to change it to `tilted right ?`, and then within the `if then` block you can tell your program to change the x position of the sprite. You can find the blocks to change position in the **Motion** menu.
+
+![program](assets/script_4.pn)g
+
+6. Click the green flag to run your program and after the sprite reads the insturctions, try tilting your micro:bit to the right. Your sprite should move across the screen.
+
+7. Now that the sprite can be controlled in one direction, it is time to add in the other directions of movement. Add in more `if then`, `tilt any ?` along with blocks to change direction, until your program looks like this.
+
+![program](assets/script_5.png)
+
+8. Run your program again and test that you can use the micro:bit to move your sprite around the screen.
+
+9. Later on you will add some code to change the scout's costume. When the micro:bit is tilted, however, you need the costume to change back to the scout costume. Use a `tilt any ?` block within an `if then` block to make sure that when the micro:bit is tilted the costume is always a scout. You can find the `switch costume to` block in the **Looks** menu.
+
+![program](assets/script_6.png)
+
+10. To finish off this part, when the micro:bit is tilted and you hold down button A, the scout should draw a line on the screen, to represent a path or a trail. Add in a `if then else` block to your program that detects if the button is pressed, and then places the `pen down`, or lifts the `pen up` if it is not pressed. You can find the blocks to control the pen in the **Pen** menu.
+
+![program](assets/script_7.png)
+
+11. Test your program again. When you are moving the sprite around and press button A, it should draw a brown line. When you release the button then it should stop drawing. If the micro:bit is not tilted, then no lines should be drawn.
+
+**THE BELOW CODE IS FOR SCRATCHBLOCKS.GITHUB.IO AND NOT PART OF THE RESOURCE**
+```
+when flag clicked
+forever
+if <tilted (right v) ? ::extension microbit> then
+change x by (5)
+end
+if <tilted (left v) ? ::extension microbit> then
+change x by (-5)
+end
+if <tilted (front v) ? ::extension microbit> then
+change y by (5)
+end
+if <tilted (back v) ? ::extension microbit> then
+change y by (-5)
+end
+if <tilted (any v) ? ::extension microbit> then
+switch costume to (scout v)
+if <(A v) button pressed? ::extension microbit> then
+pen down
+else
+pen up
+end
+```
+
+### Part 3: Adding map icons
+
+Now that you can move the scout around the screen and draw trails, it is time to add icons to the map.
+
+1. You will need a new set of blocks for this part of the program, to listen for button pushes when the micro:bit is not tilted. Start by adding a `green glag clicked` block along with a `forever` block and an `if then` block.
+
+![program](assets/script_8.png)
+
+2. To detect that the micro:bit is not being tilted you can use a `not` block. You can find this in the **Operators** menu
+
+![program](assets/script_9.png)
+
+3. When you press button A now, the sprite should cycle through it's costumes, and then `wait` for a little bit.
+
+![program](assets/script_10.png)
+
+4. Test that your code works by moving the micro:bit around, and then holding it flat and pressing button A. When you tilt the micro:bit again the costume should change back to the scout sprite.
+
+5. Next, the costume that is displayed should be stamped on the stage. You can find the `stamp` block in the **Pen** menu.
+
+![program](assets/script_11.png)
+
+6. Now your program is complete. You should be able to move your sprite around by tilting the micro:bit, and then while holding it level you can change costumes to any of the map icons using button A and place the icons on the stage using button B. Have a go at creating your own map of a place you have visitied, or even design your own map of your perfect campsite.
+
+**THE BELOW CODE IS FOR SCRATCHBLOCKS.GITHUB.IO AND NOT PART OF THE RESOURCE**
+```
+when flag clicked
+forever
+if <not<tilted (any v) ? ::extension microbit>> then
+if <(A v) button pressed? ::extension microbit> then
+next costume
+wait (0.4) seconds
+end
+if <(B v) button pressed? ::extension microbit> then
+pen down
+stamp
+pen up
+wait (0.4) seconds
+```
+
 ## Discuss
 
 A question related to the activity which they can discuss in a small group.
@@ -110,5 +204,14 @@ Any tips which may help the Scouts engage or get more from the activity.
 How the output or ideas from the activity might be shared with others. 
 
 
-[greenflag]:assets/greenflag.png
+[greenflag flag clicked]:assets/greenflag.png
 [forever]:assets/forever.png
+[if then]:assets/if_then.png
+[tilted any ?]:assets/tilted_any.png
+[tilted right ?]:assets/tilted_right.png
+[switch costume to]:assets/switch_costume.png
+[pen up]:assets/pen_up.png
+[pen down]:assets/pen_down.png
+[not]:assets/not.png
+[wait]:assets/wait.png
+[stamp]:assets/stamp.png
