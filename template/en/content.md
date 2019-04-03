@@ -43,8 +43,8 @@ Download the Scratch Link software and install the Scrath micro:bit HEX code on 
 ## Key messages
 
 + External inputs, such as buttons as sensors can be used with a computer.
-+ Infinte loops can be used to detect events and then conditional selection can be used to alter the begabior of a program depending on the event detected.
-+ Scratch cab be used as a digital canvas on which images can be drawn.
++ Infinite loops can be used to detect events and then conditional selection can be used to alter the behaviour of a program depending on the event detected.
++ Scratch can be used as a digital canvas on which images can be drawn.
 
 ## Leader instructions
 1. Discuss digital arts programs the young people may have used such as Microsoft Paint, and how you might use a mouse or a tablet to draw on a digital canvas.
