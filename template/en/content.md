@@ -4,7 +4,7 @@
 
 ## Overview
 
-This activity fulfills Stage 2, Requirement 2 of the Digital Maker Staged Activity Badge (Create a simple computer program to help with a scouting activity, and try it out) and Stage x, Requirement x of the Give other badge links here. 
+This activity fulfills Stage 2, Requirement 2 of the Digital Maker Staged Activity Badge (Create a simple computer program to help with a scouting activity, and try it out) and Stage 2, Requirement 4 of the Navigator Staged Activity Badge.
 
 Young people will use Scratch along with a micro:bit to draw a map of a wilderness area they have visited or are planning to visit.
 
@@ -50,7 +50,12 @@ Download the Scratch Link software and install the Scrath micro:bit HEX code on 
 1. Discuss digital arts programs the young people may have used such as Microsoft Paint, and how you might use a mouse or a tablet to draw on a digital canvas.
 2. Explain that you can use a variety of input devices to interact with a computer, and that they are going to make a program that will allow them to draw their own maps.
 3. If they have not used them before, introduce the young people to the micro:bit. Explain that micro:bits not only have two buttons (for input) but they are also able to sense which way they are tilted.
-4. Demonstrate how to connect the micro:bit to the computer and open Scratch (online or offline)
+4. Deomonstarte how to start the Scratch Link software
+![scratch_link.png](assets/scratch_link.png)
+4. Demonstrate how to connect the micro:bit to the computer and open Scratch (online or offline), and then the starter project.
+5. Demonstrate how to use the Scratch Link software to connect the micro:bit
+![screen_shot_1.png](assets/screen_shot_1.png)
+![screen_shot_2.png](assets/screen_shot_2.png)
 5. With the instructions in the printout, the young people will create code in Scratch allowing them to use their micro:bits to draw a map.
 6. Once the project is complete, young people can use their program to create their own custom maps in Scratch, of an campsite environment they have visited.
 
@@ -116,7 +121,7 @@ You are going to write some code that will control the direction the scout sprit
 
 ![program](assets/script_5.png)
 
-8. Run your program again and test that you can use the micro:bit to move your sprite around the screen.
+8. Run your program again and test that you can use the micro:bit to move your sprite around the screen. You will notice that if you tilt the micro:bit in two directions, it will move diagonally.
 
 9. Later on you will add some code to change the scout's costume. When the micro:bit is tilted, however, you need the costume to change back to the scout costume. Use a `tilt any ?` block within an `if then` block to make sure that when the micro:bit is tilted the costume is always a scout. You can find the `switch costume to` block in the **Looks** menu.
 
@@ -127,6 +132,8 @@ You are going to write some code that will control the direction the scout sprit
 ![program](assets/script_7.png)
 
 11. Test your program again. When you are moving the sprite around and press button A, it should draw a brown line. When you release the button then it should stop drawing. If the micro:bit is not tilted, then no lines should be drawn.
+
+12. Spend a little time practicing drawing lines on the screen, using your micro:bit.
 
 **THE BELOW CODE IS FOR SCRATCHBLOCKS.GITHUB.IO AND NOT PART OF THE RESOURCE**
 ```
@@ -165,7 +172,7 @@ Now that you can move the scout around the screen and draw trails, it is time to
 
 ![program](assets/script_9.png)
 
-3. When you press button A now, the sprite should cycle through it's costumes, and then `wait` for a little bit.
+3. When you press button A now, the sprite should cycle through it's costumes, and then `wait` for a little bit. The current icons you have are a tree, a hill and a campsite. There is also a white square that you can use to erase stamps. You can add more costumes later if you like.
 
 ![program](assets/script_10.png)
 
@@ -176,6 +183,8 @@ Now that you can move the scout around the screen and draw trails, it is time to
 ![program](assets/script_11.png)
 
 6. Now your program is complete. You should be able to move your sprite around by tilting the micro:bit, and then while holding it level you can change costumes to any of the map icons using button A and place the icons on the stage using button B. Have a go at creating your own map of a place you have visitied, or even design your own map of your perfect campsite.
+
+7. When you have finished drawing your map, you can right click on the stage and `Save image as...` so that you cankeep your map and even print it off.
 
 **THE BELOW CODE IS FOR SCRATCHBLOCKS.GITHUB.IO AND NOT PART OF THE RESOURCE**
 ```
