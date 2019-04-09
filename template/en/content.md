@@ -51,11 +51,16 @@ Download the Scratch Link software and install the Scrath micro:bit HEX code on 
 2. Explain that you can use a variety of input devices to interact with a computer, and that they are going to make a program that will allow them to draw their own maps.
 3. If they have not used them before, introduce the young people to the micro:bit. Explain that micro:bits not only have two buttons (for input) but they are also able to sense which way they are tilted.
 4. Deomonstarte how to start the Scratch Link software
+
 ![scratch_link.png](assets/scratch_link.png)
+
 4. Demonstrate how to connect the micro:bit to the computer and open Scratch (online or offline), and then the starter project.
 5. Demonstrate how to use the Scratch Link software to connect the micro:bit
+
 ![screen_shot_1.png](assets/screen_shot_1.png)
+
 ![screen_shot_2.png](assets/screen_shot_2.png)
+
 5. With the instructions in the printout, the young people will create code in Scratch allowing them to use their micro:bits to draw a map.
 6. Once the project is complete, young people can use their program to create their own custom maps in Scratch, of an campsite environment they have visited.
 
