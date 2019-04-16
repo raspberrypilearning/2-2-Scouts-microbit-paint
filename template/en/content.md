@@ -2,6 +2,9 @@
 
 # Leader notes
 
+## Outcomes
+Young people develop a range of practical and contemporary skills which are useful in their school, work and social life.
+
 ## Overview
 
 This activity fulfills Stage 2, Requirement 2 of the Digital Maker Staged Activity Badge (Create a simple computer program to help with a scouting activity, and try it out) and Stage 2, Requirement 4 of the Navigator Staged Activity Badge.
@@ -207,17 +210,20 @@ pen up
 wait (0.4) seconds
 ```
 
-## Discuss
+## Reflection
 
-A question related to the activity which they can discuss in a small group.
+You can talk about how digital cartography has changed all our lives over the last few years:
+- Online maps with photographic overlays allows viewing an area with a high level of detail
+- Route finding algorithms mean that computers can plan fast and efficient routes between two points
+- Digital maps in combination with GPS technology, allows people to know their exact location along a route at any given time.
 
 ## Tip
 
-Any tips which may help the Scouts engage or get more from the activity.
+It might help for the young people to hand draw their maps first, or to attempt to copy a map that has been provided for them.
 
 ## Sharing
 
-How the output or ideas from the activity might be shared with others. 
+Young people can share their projects by clicking on the `Share` button in Scratch.
 
 
 [greenflag flag clicked]:assets/greenflag.png
