@@ -1,4 +1,4 @@
- # micro:bit make a map
+# micro:bit make a map
 
 # Leader notes
 
@@ -32,25 +32,25 @@ A completed project can be found online at [rpf.io/scouts-microbit-map-on-comple
 
 Run Scratch online in a web browser with an internet connection using this link rpf.io/scratchon.
 
-Download the Scratch Link software and install the Scrath micro:bit HEX code on the microbits beforehand. Refer to the instructions at rpf.io/scratch-link
+Download the Scratch Link software and install the Scratch micro:bit HEX code on the micro:bits beforehand. Refer to the instructions at rpf.io/scratch-link
 
 ### If your meeting place doesn’t have WiFi
 
-Download the Scratch Desktop application beforehand; refere to the Scratch guide rpf.io/scouts-scratch for instructions. 
+Download the Scratch Desktop application beforehand; refer to the Scratch guide rpf.io/scouts-scratch for instructions. 
 
-Download the Scratch Link software and install the Scrath micro:bit HEX code on the microbits beforehand. Refer to the instructions at rpf.io/scratch-link
+Download the Scratch Link software and install the Scratch micro:bit HEX code on the micro:bits beforehand. Refer to the instructions at rpf.io/scratch-link
 
 ## Key messages
 
 + External inputs, such as buttons as sensors can be used with a computer.
-+ Infinite loops can be used to detect events and then conditional selection can be used to alter the behaviour of a program depending on the event detected.
++ Infinite loops can be used to detect events and then conditional selection can be used to alter the behavior of a program depending on the event detected.
 + Scratch can be used as a digital canvas on which images can be drawn.
 
 ## Leader instructions
 1. Discuss digital arts programs the young people may have used such as Microsoft Paint, and how you might use a mouse or a tablet to draw on a digital canvas.
 2. Explain that you can use a variety of input devices to interact with a computer, and that they are going to make a program that will allow them to draw their own maps.
 3. If they have not used them before, introduce the young people to the micro:bit. Explain that micro:bits not only have two buttons (for input) but they are also able to sense which way they are tilted.
-4. Deomonstarte how to start the Scratch Link software
+4. Demonstrate how to start the Scratch Link software
 
 ![scratch_link.png](assets/scratch_link.png)
 
@@ -82,18 +82,18 @@ Here other badge resources primarily cover how you’d adapt this for different 
 
 # Handout
 
-You are going to make a computer program using Scratch that will let you use a micro:bit to control your sprite, and then create a digital map of an area you have visited or will be visiting. Tilting the microbit controls where the sprite will move, while the buttons can be used for drawing paths and placing down map icons.
+You are going to make a computer program using Scratch that will let you use a micro:bit to control your sprite, and then create a digital map of an area you have visited or will be visiting. Tilting the micro:bit controls where the sprite will move, while the buttons can be used for drawing paths and placing down map icons.
 
 ## Did you know
 
-+ Digital maps have led to some very interesting discoveries, such as when an archologist called Angela Micol used Google maps to discover some previously unknow pyraminds in Egypt.
++ Digital maps have led to some very interesting discoveries, such as when an archaeologist called Angela Micol used Google maps to discover some previously unknown pyramids in Egypt.
 
 ## Instructions
 
 ### Part 1: Setting up
 1. Open the starter project at [rpf.io/scouts-microbit-map-on](rpf.io/scouts-microbit-map-on) or if you are offline open the starter project that your leader has provided you.
 
-2. Connect microbit step here - will have to see what happens with starter project.
+2. Connect micro:bit step here - will have to see what happens with starter project.
 
 3. Start by clicking the green flag. The `scouts` sprite should read out the instructions for the map maker program and then shrink down in size.
 
@@ -116,11 +116,11 @@ You are going to write some code that will control the direction the scout sprit
 
 ![program](assets/script_3.png)
 
-5. Use the dropdown menu within the `tilted any ?` block to change it to `tilted right ?`, and then within the `if then` block you can tell your program to change the x position of the sprite. You can find the blocks to change position in the **Motion** menu.
+5. Use the drop down menu within the `tilted any ?` block to change it to `tilted right ?`, and then within the `if then` block you can tell your program to change the x position of the sprite. You can find the blocks to change position in the **Motion** menu.
 
 ![program](assets/script_4.png)
 
-6. Click the green flag to run your program and after the sprite reads the insturctions, try tilting your micro:bit to the right. Your sprite should move across the screen.
+6. Click the green flag to run your program and after the sprite reads the instructions, try tilting your micro:bit to the right. Your sprite should move across the screen.
 
 7. Now that the sprite can be controlled in one direction, it is time to add in the other directions of movement. Add in more `if then`, `tilt any ?` along with blocks to change direction, until your program looks like this.
 
@@ -169,7 +169,7 @@ end
 
 Now that you can move the scout around the screen and draw trails, it is time to add icons to the map.
 
-1. You will need a new set of blocks for this part of the program, to listen for button pushes when the micro:bit is not tilted. Start by adding a `green glag clicked` block along with a `forever` block and an `if then` block.
+1. You will need a new set of blocks for this part of the program, to listen for button pushes when the micro:bit is not tilted. Start by adding a `green flag clicked` block along with a `forever` block and an `if then` block.
 
 ![program](assets/script_8.png)
 
@@ -187,9 +187,9 @@ Now that you can move the scout around the screen and draw trails, it is time to
 
 ![program](assets/script_11.png)
 
-6. Now your program is complete. You should be able to move your sprite around by tilting the micro:bit, and then while holding it level you can change costumes to any of the map icons using button A and place the icons on the stage using button B. Have a go at creating your own map of a place you have visitied, or even design your own map of your perfect campsite.
+6. Now your program is complete. You should be able to move your sprite around by tilting the micro:bit, and then while holding it level you can change costumes to any of the map icons using button A and place the icons on the stage using button B. Have a go at creating your own map of a place you have visited, or even design your own map of your perfect campsite.
 
-7. When you have finished drawing your map, you can right click on the stage and `Save image as...` so that you cankeep your map and even print it off.
+7. When you have finished drawing your map, you can right click on the stage and `Save image as...` so that you can keep your map and even print it off.
 
 **THE BELOW CODE IS FOR SCRATCHBLOCKS.GITHUB.IO AND NOT PART OF THE RESOURCE**
 ```
