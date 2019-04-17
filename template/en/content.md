@@ -81,6 +81,13 @@ You should also give each young person a Stay Safe leaflet (rpf.io/scouts-staysa
 
 Here other badge resources primarily cover how you’d adapt this for different educational needs
 
+## Reflection
+
+You can talk about how digital cartography has changed all our lives over the last few years:
+- Online maps with photographic overlays allows viewing an area with a high level of detail
+- Route finding algorithms mean that computers can plan fast and efficient routes between two points
+- Digital maps in combination with GPS technology, allows people to know their exact location along a route at any given time.
+
 # Activity / project title
 
 # Handout
@@ -209,13 +216,6 @@ stamp
 pen up
 wait (0.4) seconds
 ```
-
-## Reflection
-
-You can talk about how digital cartography has changed all our lives over the last few years:
-- Online maps with photographic overlays allows viewing an area with a high level of detail
-- Route finding algorithms mean that computers can plan fast and efficient routes between two points
-- Digital maps in combination with GPS technology, allows people to know their exact location along a route at any given time.
 
 ## Tip
 
