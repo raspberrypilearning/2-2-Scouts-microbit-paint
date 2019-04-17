@@ -19,6 +19,8 @@ A completed project can be found online at [rpf.io/scouts-microbit-map-on-comple
 + Preparation needed - If you’re running this activity without access to WiFi, you will need to download the software and starter project ahead of time. You may also wish to print handouts.
 + Location - Wherever you have computer access
 
+[ ] Beavers [x] Cubs [x] Scouts [ ] Explorers
+
 ## You will need
 
 + Laptops or desktop computers
